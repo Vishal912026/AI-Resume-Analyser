@@ -1,15 +1,15 @@
-# AI Resume Analyser 
+ AI Resume Analyser 
 
-Ek simple aur powerful web application jo user ke resume ko analyse karke feedback aur score provide karta hai. Is project ko HTML, CSS, aur JavaScript ka use karke banaya gaya hai.
+A simple and powerful web application designed to analyse user resumes and provide instant feedback along with an optimization score. This project is built using HTML, CSS, and vanilla JavaScript.
 
-##  Features
-- **User-Friendly UI:** Clean aur responsive design.
-- **File Upload Support:** User apna resume (.pdf, .docx, .doc) upload kar sakte hain.
-- **Instant AI Feedback (Mock/API Ready):** Resume ka score, achhi baatein (strengths), aur sudhaar ke points (improvements) dikhata hai.
-- **Easy Deployment:** Netlify ya GitHub Pages par aasani se deploy karne ke liye ready.
+ Features
+- **User-Friendly UI:** Clean, modern, and fully responsive design.
+- **File Upload Support:** Allows users to easily upload their resumes (.pdf, .docx, .doc).
+- **Instant AI Feedback (Mock/API Ready):** Displays a resume score, core strengths, and actionable improvement points.
+- **Easy Deployment:** Ready to be deployed online on Netlify or GitHub Pages with zero configuration.
 
-##  Project Structure
-Jaisa ki aapke folder mein dikh raha hai:
-- `index.html` - Isme website ka poora structure aur layout hai.
-- `style.css` - Website ko sundar aur modern look dene ke liye styling code.
-- `app.js` - Click events, file handling aur AI logic ko control karne ke liye JavaScript
+Project Structure
+As seen in the project workspace:
+- `index.html` - Contains the structure, layout, and core elements of the web app.
+- `style.css` - Contains the styling and visual layout to make the app look modern.
+- `app.js` - Handles user interaction, click events, and the logic for the AI analysis
