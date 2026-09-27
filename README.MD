@@ -2,6 +2,8 @@
 
 A simple and powerful web application designed to analyse user resumes and provide instant feedback along with an optimization score. This project is built using HTML, CSS, and vanilla JavaScript.
 
+🔗 **Live Demo:** [vishal912026.github.io/AI-Resume-Analyser](https://vishal912026.github.io/AI-Resume-Analyser/)
+
 ## Features
 - **User-Friendly UI:** Clean, modern, and fully responsive design.
 - **File Upload Support:** Upload your resume in **PDF** format.
