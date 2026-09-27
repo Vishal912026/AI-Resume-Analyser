@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Analyser</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- PDF.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Resume Analyser ✨</h1>
+            <p>Upload your resume and match it with the Job Description.</p>
+        </header>
+
+        <main>
+            <div class="form-group">
+                <label for="job-desc">Job Description (JD)</label>
+                <textarea id="job-desc" placeholder="Paste the job requirements here..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="resume-file">Upload Resume (PDF only)</label>
+                <div class="file-drop-area">
+                    <input type="file" id="resume-file" accept=".pdf">
+                    <p id="file-label">Click here or drag your PDF resume</p>
+                </div>
+            </div>
+
+            <button id="analyze-btn">Analyze Resume 🚀</button>
+
+            <!-- Loading Spinner -->
+            <div id="loading" class="hidden">
+                <div class="spinner"></div>
+                <p>AI is analyzing your resume...</p>
+            </div>
+
+            <!-- Results Display -->
+            <section id="result-section" class="hidden">
+                <h2>Analysis Result</h2>
+                <div class="result-card">
+                    <div class="score-box">
+                        <h3>ATS Match Score</h3>
+                        <div id="ats-score">0%</div>
+                    </div>
+                    <div class="feedback-box">
+                        <h3>AI Feedback</h3>
+                        <div id="ai-feedback"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- Simple Script: Type module hata diya hai taaki file/// se chale -->
+    <script src="app.js"></script>
+</body>
+</html>
